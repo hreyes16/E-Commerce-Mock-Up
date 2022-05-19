@@ -1,0 +1,281 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+:root{
+--nav-color: #003049;
+--main-bg-color: #f77f00;
+--main-button-color: #d62828;
+--sub-color-one: #fcbf49;
+--sub-color-two: #eae2b7;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-container{
+  height: 100vh;
+}
+
+.home-container h1 {
+
+  font-size: 2.5em;
+  padding: 0;
+  font-weight: 500;
+  margin-top: 50px;
+  color: rgb(175, 175, 175);
+}
+
+.home-container img{
+  width: 800px;
+  height: 540px;
+  margin-top: 50px;
+}
+
+.home_underline{
+  width: 500px;
+  height: 5px;
+  background-color: rgb(192, 192, 192);
+}
+
+
+.register_box{
+width: 350px;
+height: 100%;
+margin: auto;
+background-color: rgb(247, 247, 247);
+border-radius: 10px;
+}
+
+
+.login_box{
+    width: 350px;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
+.register_box h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.login_box h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input:focus{
+  background-color: #ddd;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #cecece;
+}
+input[type=Submit] {
+  background-color:#0082c8;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 25%;
+  opacity: 0.9;
+}
+
+input[type=Submit]:hover{
+  opacity: 1;
+}
+
+
+.register_box p{
+    text-align: center;
+    padding-top: 10px;
+}
+.login_box p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.register_text{
+  color: rgb(12, 12, 12);
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: var(--nav-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(240, 240, 240);
+    color: black;
+  
+    transition: 0.3s;
+  }
+
+
+/*   Products Page */
+.product_page{
+  background-color: #ffffff;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.categories{
+  margin:  80px 0;
+  margin-bottom: 10px;
+}
+
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+
+.col-3 img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.col-4{
+  flex-basis: 30%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 1px;
+  padding-bottom: 50px;
+
+}
+
+.col-4 img{
+width: 100%;
+ background-color: var(--nav-color);
+}
+
+.prices{ 
+ color: black;
+ padding: 50;
+ margin: 0;
+
+}
+
+.product_title{
+  color: black;
+  padding: 5px;
+  margin: 0;
+}
+
+.product_info{
+  width: 100%;
+  background-color: rgb(213, 213, 213);
+  margin: 0;
+  
+}
+
+
+.page_titles{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  font-size: 2rem;
+  color: black;
+}
+  
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.main-section{
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background: #ffffff;
+  color: white;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* CART CSS */
+#product_title{
+  text-align: center;
+}
+
+.add_cart_btn{
+  background-color:#0082c8;
+  color: white;
+  padding: 16px 20px;
+  border:none;
+
+}
+
+.cart-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products img {
+  width: 210px;
+  height: 150px;
+
+}
+  /* END CART CSS */
+
+
+
+
